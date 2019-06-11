@@ -2,10 +2,11 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #444;
+    height: 100%;
 }
 
 h2 {
@@ -22,6 +23,12 @@ h3 {
     background-color: #505656;
     color: #fff;
     text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
 }
 
 .header-container {
@@ -69,12 +76,10 @@ h3 {
     max-width: 960px;
     background-color: rgba(242, 242, 242, 0.8);
     border: 2px solid #444;
-    margin-top: 30px;
-    margin-left: 30px;
 }
 
 .me {
-    max-width: 300px;
+  width: 200px;
 }
 
 .main-container p {
@@ -88,6 +93,21 @@ h3 {
 
 .main-container p a:hover {
     color: #222;
+}
+
+.footer-container {
+    height: 70px;
+    background-color: rgba(242, 242, 242, 0.8);
+    border-top: 8px solid #444;
+    flex-shrink: 0;
+    position: fixed; 
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-container p {
+    text-align: center; 
 }
 
 @media screen and (max-width: 640px) {
@@ -112,26 +132,19 @@ h3 {
         margin-left: 15px;
     }
 
+    .me {
+
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .header-container {
-       
-    }
+  
+    .me {
 
-    .nav-links {
-       
-        
-    }
-
-    .logo {
-        
     }
 }
 
 @media screen and (max-width: 980px) {
-    .header-container {
-       
-    }
+    
 
 }
