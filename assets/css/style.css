@@ -7,6 +7,9 @@ html, body {
     font-size: 18px;
     color: #444;
     height: 100%;
+    background: url('../images/dark-plant-background.jpg');
+    background-size: contain;
+    background: cover no-repeat;
 }
 
 h2 {
@@ -14,9 +17,8 @@ h2 {
     font-size: 30px;
     font-weight: bold;
     border-bottom: 2px solid #666;
-    padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 15px;
+    margin: 20px;
 }
 
 h3 {
@@ -38,6 +40,7 @@ h3 {
     height: 100px;
     border-bottom: 2px solid #666;
     background-color:rgba(242, 242, 242, 0.8);
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -72,18 +75,22 @@ h3 {
 }
 
 .main-container {
-    height: 500px;
+    height: auto;
     max-width: 960px;
     background-color: rgba(242, 242, 242, 0.8);
     border: 2px solid #444;
+    margin: 0 auto;
 }
 
 .me {
   width: 200px;
+  float: left;
+  margin: 10px; 
 }
 
 .main-container p {
     line-height: normal;
+    padding: 12px;
 }
 
 .main-container p a {
@@ -104,6 +111,7 @@ h3 {
     width: 100%;
     left: 0;
     bottom: 0;
+    padding: 20px;
 }
 
 .footer-container p {
@@ -125,23 +133,28 @@ h3 {
         border-bottom: 2px solid #666;
         flex: 1 1 100%;
         margin-top: 25px;  
+        background-color:rgba(242, 242, 242, 0.8);
     }
 
     .main-container {
-        margin-top: 90px;
-        margin-left: 15px;
+        
     }
 
     .me {
-
+       
     }
 }
 
 @media screen and (max-width: 768px) {
+
+    .main-container {
+        margin: 20px;
+    }
   
     .me {
-
+        width: 300px;
     }
+
 }
 
 @media screen and (max-width: 980px) {
