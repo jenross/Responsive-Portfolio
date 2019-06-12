@@ -80,6 +80,7 @@ h3 {
     background-color: rgba(242, 242, 242, 0.8);
     border: 2px solid #444;
     margin: 0 auto;
+    position: relative; 
 }
 
 .me {
@@ -138,27 +139,41 @@ h3 {
     }
 
     .main-container {
-        margin: 20px;
+        clear: both; 
     }
 
     .me {
-       
+  
+    }
+
+    .footer-container {
+        position: static; 
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
     .main-container {
         margin: 20px;
+        clear: both; 
     }
   
     .me {
         width: 300px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .footer-container {
+  
     }
 
 }
 
 @media screen and (max-width: 980px) {
-    
+    .main-container {
+        margin: 20px;
 
+    }
+    
 }
