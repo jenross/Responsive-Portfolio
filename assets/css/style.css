@@ -91,7 +91,7 @@ h3 {
 
 .main-container p {
     line-height: normal;
-    padding: 12px;
+    padding: 15px;
 }
 
 .main-container p a {
@@ -151,21 +151,21 @@ h3 {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     .main-container {
-        margin: 20px;
         clear: both; 
+
     }
   
     .me {
         width: 300px;
         float: none;
-        margin: 0 auto;
+        margin-left: 30px;
     }
 
     .footer-container {
-  
+        position: static; 
     }
 
 }
@@ -175,5 +175,8 @@ h3 {
         margin: 20px;
 
     }
-    
+
+    .footer-container {
+       
+    }
 }
