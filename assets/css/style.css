@@ -197,7 +197,7 @@ textarea {
     }
 
     h3 {
-        width:100%
+        margin-left: 0 !important;
     }
 }
 
@@ -222,7 +222,7 @@ textarea {
     }
 
     .portfolio-items {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         float: none;
         margin-left: auto;
         margin-right: auto;
@@ -236,7 +236,7 @@ textarea {
     h3 {
         width:100%;
         margin-bottom: -35px;
-        margin-left: 0;
+        margin-left: 20px;
     }
 
 }
