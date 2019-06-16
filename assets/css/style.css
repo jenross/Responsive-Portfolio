@@ -116,7 +116,7 @@ h3 {
 
 .portfolio-items {
     float: left;
-    margin: 20px;
+    margin-left: 90px;
     position: relative;
 }
 
@@ -221,10 +221,16 @@ textarea {
         width: 100%;
     }
 
+    .portfolio-items {
+        margin-bottom: 10px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .portfolio-image {
         height: auto;
         width: 100%;
-        margin: 0 auto;
     }
 
     h3 {
