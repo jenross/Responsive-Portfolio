@@ -245,5 +245,27 @@ textarea {
 @media screen and (max-width: 980px) {
     .main-container {
         margin: 20px; 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    h2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .portfolio-items {
+        margin-bottom: 20px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .me {
+        width: 400px;
+        height: 400px;
+        float: none;
     }
 }
